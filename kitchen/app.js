@@ -1,10 +1,12 @@
 // how to add rows and accept input
-const button = document.querySelector('button')
+const form = document.querySelector('form');
+const button = document.querySelector('#addRow');
 
-button.onclick = function () {
-	console.log("you clicked me")
-    const newRow = document.createElement('tr');
-    const newTd = document.createElement("td");
-    newRow.append('newTd');
+const tableEL = document.querySelector('tbody');
 
-}
+
+button.addEventListener('click', function () {
+    const ingredient = document.getElementById('ingredient').value;
+    const shelfLife = document.getElementById('shelfLife').value;
+    alert(ingredient + shelfLife);
+})

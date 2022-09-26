@@ -11,22 +11,38 @@
     <title>Kitchen</title>
 </head>
 <body>
-    <h1>Kitchen Organizer</h1>
-    <!-- using hover border here from bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Wasted</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Login</a>
+          </div>
+        </div>
+    </nav>
+    <form>
+        <div>
+            <label for="ingredient">Enter Ingredient:</label>
+            <input type="text" name="ingredient" id="ingredient" >
+            <label for="ingredient">Enter Shelf Life:</label>
+            <input type="text" name="shelfLife" id="shelfLife" >
+            <button id="addRow" type="button" class="btn btn-primary">Add Row</button>
+        </div>
+    </form>
     <table class="table table-bordered border-primary table-light" id="table1">
         <tr>
-            <td>Food</td>
-            <td>Price($)</td>
-            <td>Amount</td>
+            <td>Ingredient</td>
+            <td>Shelf Life</td>
+            <td> </td>
+
         </tr>
         <tr>
-            <td>Carrot</td>
-            <td>$1</td>
-            <td>3</td>
+         
         </tr>
     </table>
-    <button id="addRow" type="button" class="btn btn-primary">Add Row</button>
-
     <!-- These Scripts are for bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
