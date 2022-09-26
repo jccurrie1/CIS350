@@ -13,7 +13,7 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 
 This is a group project with the goal to create a fullstack web application. Learning the software development process as we work on the project. The name of our project is Wasted. The goal of our web based application is to eliminate at home food waste. We will do this by alerting people when certain items are close to expiring. The almost automatic reminder that an item is expiring will help food waste decrease for those that use our website.
 
-**this is my intro, you can decide which one or what parts we should keep**
+/this is my intro, you can decide which one or what parts we should keep/
 A website is a group of related webpages located under a single domain name, typically produced by a single person or organization. Food waste is becoming an increasing problem that not many people know about. Food waste is increasing at an alarming rate which is costing everyone money while also destroying the environment. A simple website could be the key to solving this epidemic. With this website the  average person can help combat the food waste epidemic while also saving themselves money. This website-“Wasted” is expected to provide a simple and efficient way to track your food’s average life span. Once the user goes into the website they will be asked to register. After the user registers, they will be able to login into their homepage. There the user will be able to input the food they have at home. “Wasted” will then calculate the expected life span of your food. “Wasted” will alert the user when their food is about to expire.
 
 <h1>3. Architectural Design</h1>
