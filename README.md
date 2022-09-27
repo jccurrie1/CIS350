@@ -18,6 +18,10 @@ A website is a group of related webpages located under a single domain name, typ
 
 <h1>3. Architectural Design</h1>
 
+<figure>
+<img src="Arch Design Small.png"> </img>
+</figure>
+
 <h1>4. Use Case Diagram</h1>
 <figure>
 <img src="CIS 350 UML.png"> </img>
