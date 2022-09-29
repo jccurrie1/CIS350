@@ -29,5 +29,9 @@ A website is a group of related webpages located under a single domain name, typ
 
 <h1>4. Class Diagram</h1>
 
+<h1>5. Sequence Diagram</h1>
+<figure>
+<img src="CIS 350 Sequence Diagram.png"> </img>
+</figure>
 
-<h1>5. UI Design</h1>
+<h1>6. UI Design</h1>
