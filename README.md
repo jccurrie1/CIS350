@@ -36,5 +36,5 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 
 <h1>6. UI Design</h1>
 <figure>
-<img src="Homepage.png"> </img>
+<img src="Login.png"> </img>
 </figure>
