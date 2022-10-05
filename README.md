@@ -1,3 +1,4 @@
+
 <h1>CIS350 - Wasted </h1>
 
 <figure>
@@ -36,5 +37,5 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 
 <h1>6. UI Design</h1>
 <figure>
-<img src="Login.png"> </img>
+<img src="https://user-images.githubusercontent.com/113372710/193965283-2cc88a4d-46a9-4e9d-8991-800cdaf30b46.png"> </img>
 </figure>
