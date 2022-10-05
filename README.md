@@ -22,7 +22,7 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 
 <h1>4. Use Case Diagram</h1>
 <figure>
-<img src="CIS 350 UML.png"> </img>
+<img src="CIS 350 Use Case UML.png"> </img>
 </figure>
 
 <h1>4. Sequence Diagram</h1>
