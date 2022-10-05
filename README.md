@@ -1,7 +1,3 @@
-
-![Pantry](https://user-images.githubusercontent.com/113372710/193966116-b1ce4225-6aec-46ce-979c-052ea81d11d6.png)
-
-
 <h1>CIS350 - Wasted </h1>
 
 <figure>
