@@ -1,4 +1,6 @@
 
+![Pantry](https://user-images.githubusercontent.com/113372710/193966116-b1ce4225-6aec-46ce-979c-052ea81d11d6.png)
+
 
 <h1>CIS350 - Wasted </h1>
 
@@ -44,3 +46,16 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <figure>
  <img src="https://user-images.githubusercontent.com/113372710/193965944-cf6fb210-d0bc-47a7-891a-40648f1b4be8.png"> </img>
  </figure>
+ 
+ <figure>
+ <img src="https://user-images.githubusercontent.com/113372710/193966100-4288d839-bea2-4bea-9a2b-106a53c35ff7.png"> </img>
+ </figure>
+ 
+ <figure>
+ <img src="https://user-images.githubusercontent.com/113372710/193966111-fd8587dd-225a-4751-8bc1-a937c4ef487e.png"> </img>
+ </figure>
+ 
+ <figure>
+ <img src="https://user-images.githubusercontent.com/113372710/193966116-b1ce4225-6aec-46ce-979c-052ea81d11d6.png"> </img>
+ </figure>
+ 
