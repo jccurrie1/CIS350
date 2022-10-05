@@ -1,4 +1,5 @@
 
+
 <h1>CIS350 - Wasted </h1>
 
 <figure>
@@ -39,3 +40,7 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <figure>
 <img src="https://user-images.githubusercontent.com/113372710/193965283-2cc88a4d-46a9-4e9d-8991-800cdaf30b46.png"> </img>
 </figure>
+
+<figure>
+ <img src="https://user-images.githubusercontent.com/113372710/193965944-cf6fb210-d0bc-47a7-891a-40648f1b4be8.png"> </img>
+ </figure>
