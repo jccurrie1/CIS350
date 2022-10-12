@@ -2,7 +2,7 @@
 <h1>CIS350 - Wasted </h1>
 
 <figure>
-<img src="GV.png"> </img>
+<img src="images/GV.png"> </img>
 </figure>
 
 Made by: Katie Creech, Jared Currie
@@ -17,22 +17,22 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <h1>3. Architectural Design</h1>
 
 <figure>
-<img src="Arch Design Small.png"> </img>
+<img src="images/Arch%20Design%20Small.png"> </img>
 </figure>
 
 <h1>4. Use Case Diagram</h1>
 <figure>
-<img src="CIS 350 Use case UML.png"> </img>
+<img src="images/CIS%20350%20Use%20case%20UML.png"> </img>
 </figure>
 
 <h1>4. Sequence Diagram</h1>
 <figure>
-<img src="CIS 350 Sequence Diagram.png"> </img>
+<img src="images/CIS%20350%20Sequence%20Diagram.png"> </img>
 </figure>
 
 <h1>5. Class Diagram</h1>
 <figure>
-<img src="Class Diagram.png"> </img>
+<img src="images/Class%20Diagram.png"> </img>
 </figure>
 
 <h1>6. UI Design</h1>
