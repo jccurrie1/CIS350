@@ -2,6 +2,10 @@ const express = require("express");
 const app = express()
 app.use(express.json());
 const mongoose = require("mongoose");
+const cors = require("cors")
+app.use(express.json());
+app.use(cors());
+
 
 
 mongoose.connect("mongodb+srv://jccurrie:Wizzards11@cis350.ybbyvay.mongodb.net/CIS350?retryWrites=true&w=majority");
