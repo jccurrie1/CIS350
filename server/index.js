@@ -7,14 +7,12 @@ app.use(express.json());
 app.use(cors());
 
 
-
 mongoose.connect("mongodb+srv://jccurrie:Wizzards11@cis350.ybbyvay.mongodb.net/CIS350?retryWrites=true&w=majority");
 app.listen(3001, () => {
     console.log("server is running...");
 });
 
 const IngredientsModel = require('./models/Ingredients')
-// app.get can be anything i want it to be as long as i use it in the browser
 app.get("/getIngredients", (req, res) => {
     IngredientsModel.find({}, (err, result) => {
         if (err) {
@@ -32,7 +30,6 @@ app.post("/createIngredients", async (req, res) => {
     await newIngredients.save();
     res.json(Ingredients);
 });
-
 
 
 

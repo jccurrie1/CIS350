@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
-import { useState, useEffect, Component } from "react";
+import { useState, useEffect } from "react";
 import Axios from "axios";
 
 function App() {
@@ -26,7 +26,9 @@ function App() {
           ingredient,
           shelfLife,
         },
-      ]);
+      ]).catch(function (error) {
+        console.log(error);
+      });
     });
   };
 
@@ -47,35 +49,37 @@ function App() {
           </div>
         </nav>
         <div>
-          <input type="text" placeholder="Ingredient..."></input>
+          <input type="text" placeholder="Ingredient..." onChange={(event) => {
+            setIngredient(event.target.value);
+          }}></input>
           {/*  calling create Ingredients function */}
-          <button onClick={createIngredients} > Add Ingredient </button>
-          <input type="text" placeholder="Shelf Life..."></input>
-          <button onClick={createIngredients} > Add Shelf Life </button>
+          <input type="number" placeholder="Shelf Life..." onChange={(event) => {
+            setShelfLife(event.target.value);
+          }} ></input>
+          <button onClick={createIngredients}>Add</button>
           <div>
-
           </div>
           <table class="table table-bordered border-primary table-light" id="addRow">
             <thead>
               <tr>
                 <th scope="col">Ingredient</th>
                 <th scope="col">Shelf Life</th>
+                <th scope="col">Delete Row</th>
               </tr>
             </thead>
             <tbody>
-              {/* "Ingredients" come from backend through axios */}
+              {/* "ingredients" come from backend through axios */}
               {listOfIngredients.map((ingredients) => {
                 return (
                   <tr>
                     <td>{ingredients.ingredient}</td>
                     <td>{ingredients.shelfLife}</td>
+                    <td><button>Delete</button></td>
                   </tr>
                 );
               })}
             </tbody>
           </table>
-
-
         </div>
       </div>
     </div>
