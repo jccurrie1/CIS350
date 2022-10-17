@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
 const IngredientsSchema = new mongoose.Schema({
-    name: {
+    ingredient: {
         type: String,
         required: true,
     },
-    priority: {
+    shelfLife: {
         type: Number,
         required: true,
     }
