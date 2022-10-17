@@ -51,28 +51,27 @@ function App() {
           {/*  calling create Ingredients function */}
           <button onClick={createIngredients} > Add Ingredient </button>
           <input type="text" placeholder="Shelf Life..."></input>
-          <button onClick={createIngredients} > Add Shelflife </button>
+          <button onClick={createIngredients} > Add Shelf Life </button>
           <div>
-            
+
           </div>
           <table class="table table-bordered border-primary table-light" id="addRow">
             <thead>
               <tr>
-                <td>Ingredient</td>
-                <td>Shelf Life</td>
+                <th scope="col">Ingredient</th>
+                <th scope="col">Shelf Life</th>
               </tr>
             </thead>
             <tbody>
-            {listOfIngredients.map((ingredients) => {
-              return (
-                <div>
+              {/* "Ingredients" come from backend through axios */}
+              {listOfIngredients.map((ingredients) => {
+                return (
                   <tr>
                     <td>{ingredients.ingredient}</td>
                     <td>{ingredients.shelfLife}</td>
                   </tr>
-                </div>
-              );
-            })}
+                );
+              })}
             </tbody>
           </table>
 
