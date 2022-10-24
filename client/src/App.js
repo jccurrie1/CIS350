@@ -19,7 +19,7 @@ function App() {
     Axios.post("http://localhost:3001/createIngredients", {
       ingredient,
       shelfLife,
-    }).then((response) => {
+    }).then(() => {
       setListOfIngredients([
         ...listOfIngredients,
         {
@@ -31,6 +31,16 @@ function App() {
       });
     });
   };
+
+  const handleDeleteClick = (ingredient) => {
+    Axios.delete("http://localhost:3001/deleteIngredients").then(res => {
+      setListOfIngredients([listOfIngredients]);
+      // refresh table so that it is dynamic
+      Axios.get("http://localhost:3001/getIngredients").then((response) => {
+        setListOfIngredients(response.data);
+      });
+    })
+  }
 
   return (
     <div className="App">
@@ -71,10 +81,10 @@ function App() {
               {/* "ingredients" come from backend through axios */}
               {listOfIngredients.map((ingredients) => {
                 return (
-                  <tr>
+                  <tr key={ingredient.id}>
                     <td>{ingredients.ingredient}</td>
                     <td>{ingredients.shelfLife}</td>
-                    <td><button>Delete</button></td>
+                    <td><button type="button" onClick={() => handleDeleteClick(ingredients)}>Delete</button></td>
                   </tr>
                 );
               })}

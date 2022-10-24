@@ -3,7 +3,7 @@ const app = express()
 app.use(express.json());
 const mongoose = require("mongoose");
 const cors = require("cors")
-app.use(express.json());
+app.use(express.json())
 app.use(cors());
 
 
@@ -12,13 +12,14 @@ app.listen(3001, () => {
     console.log("server is running...");
 });
 
-const IngredientsModel = require('./models/Ingredients')
+const IngredientsModel = require('./models/Ingredients');
+const { deleteOne } = require("./models/Ingredients");
 app.get("/getIngredients", (req, res) => {
     IngredientsModel.find({}, (err, result) => {
         if (err) {
             console.log("Something bad has happened: " + err);
         } else {
-            console.log("Yay found some result!!");
+            console.log("found some result!!");
             res.json(result);
         }
     });
@@ -31,7 +32,13 @@ app.post("/createIngredients", async (req, res) => {
     res.json(Ingredients);
 });
 
-
+app.delete("/deleteIngredients", async (req, res) => {
+    console.log("works");
+    const id = req.body;
+    const deletedIngredient = await IngredientsModel.deleteOne(id);
+    console.log(deletedIngredient);
+    res.json(id);
+});
 
 
 //mongodb+srv://jccurrie:Wizzards11@cis350.ybbyvay.mongodb.net/?retryWrites=true&w=majority
