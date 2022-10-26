@@ -6,7 +6,7 @@ const IngredientsSchema = new mongoose.Schema({
         required: true,
     },
     shelfLife: {
-        type: Number,
+        type: String,
         required: true,
     }
 });

@@ -6,7 +6,7 @@ import Axios from "axios";
 function App() {
   const [listOfIngredients, setListOfIngredients] = useState([]);
   const [ingredient, setIngredient] = useState("");
-  const [shelfLife, setShelfLife] = useState(0);
+  const [shelfLife, setShelfLife] = useState("");
 
   useEffect(() => {
     // Axios makes the API call to node server (get request)
@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <div className="Kitchen">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Wasted</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,15 +59,15 @@ function App() {
           </div>
         </nav>
         <div>
-          <input type="text" placeholder="Ingredient..." onChange={(event) => {
-            setIngredient(event.target.value);
-          }}></input>
-          {/*  calling create Ingredients function */}
-          <input type="number" placeholder="Shelf Life..." onChange={(event) => {
-            setShelfLife(event.target.value);
-          }} ></input>
-          <button onClick={createIngredients}>Add</button>
-          <div>
+          <div className='form'>
+            <input type="text" placeholder="Ingredient..." onChange={(event) => {
+              setIngredient(event.target.value);
+            }}></input>
+            {/*  calling create Ingredients function */}
+            <input type="date" onChange={(event) => {
+              setShelfLife(event.target.value);
+            }} ></input>
+            <button onClick={createIngredients}>Add</button>
           </div>
           <table class="table table-bordered border-primary table-light" id="addRow">
             <thead>
