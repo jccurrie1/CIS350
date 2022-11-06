@@ -1,8 +1,8 @@
 import React from "react";
 import Axios from "axios";
-import NavBar from './components/NavBar';
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import NavBar from "./components/NavBar";
 
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="App">
       <div className="Kitchen">
-        <NavBar> </NavBar>
+        {/* <NavBar> </NavBar> */}
         <div>
           <div className='form'>
             <input type="text" placeholder="Ingredient..." onChange={(event) => {
