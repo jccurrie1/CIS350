@@ -1,8 +1,8 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { useState, useEffect } from "react";
 import Axios from "axios";
-// import NavBar from './components/NavBar';
+import NavBar from './components/NavBar';
 import React from 'react';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <div className="Kitchen">
-        {/* <NavBar> </NavBar> */}
+        <NavBar> </NavBar>
         <div>
           <div className='form'>
             <input type="text" placeholder="Ingredient..." onChange={(event) => {
@@ -87,8 +87,8 @@ function App() {
 }
 
 // bootstrap
-{/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
   integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-  crossorigin="anonymous"></link> */}
+  crossorigin="anonymous"></link> 
 
 export default App;
