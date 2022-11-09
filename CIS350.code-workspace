@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/MERNlogin/client"
+		},
+		{
+			"path": "../../../Desktop/MERNlogin/node_modules"
+		},
+		{
+			"path": "../../../Desktop/MERNlogin/server"
+		}
+	],
+	"settings": {}
+}
