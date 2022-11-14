@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from "react";
 import Axios from "axios";
 import React from 'react';
-import NavBar from '../components/NavBar';
 
 function Home() {
     const [listOfIngredients, setListOfIngredients] = useState([]);
@@ -45,7 +44,6 @@ function Home() {
 
     return (
         <div>
-            <NavBar></NavBar>
             <div className='form'>
                 <input type="text" placeholder="Ingredient..." onChange={(event) => {
                     setIngredient(event.target.value);
