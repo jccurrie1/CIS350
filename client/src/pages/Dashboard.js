@@ -8,7 +8,7 @@ const Dashboard = () => {
 	const [tempQuote, setTempQuote] = useState('')
 
 	async function populateQuote() {
-		const req = await fetch('http://localhost:1337/api/quote', {
+		const req = await fetch('http://localhost:3001/register', {
 			headers: {
 				'x-access-token': localStorage.getItem('token'),
 			},
