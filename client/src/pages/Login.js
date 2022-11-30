@@ -25,9 +25,8 @@ function App() {
     if (data.user) {
       localStorage.setItem('token', data.user)
 
-      //never created a dashboard so this wont work yet
-      alert('Login successful')
-      window.location.href = '/dashboard'
+      // send to home
+      window.location.href = '/'
     } else {
       alert('Please check your username and password')
     }
