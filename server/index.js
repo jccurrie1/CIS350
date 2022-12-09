@@ -1,3 +1,4 @@
+const dotenv = require("dotenv").config();
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -73,11 +74,10 @@ app.delete("/deleteIngredients", async (req, res) => {
   res.json(id);
 });
 
-
 // Send Mail
-// app.get("/sendEmail", (req, res) => {
-//     res.send("Welcome to my app!");
-// });
+app.get("/sendEmail", (req, res) => {
+    res.send("Welcome to my app!");
+});
 
 app.post("/api/sendEmail", async (req, res) => {
     
