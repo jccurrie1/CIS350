@@ -49,7 +49,7 @@ We used Jira to help us stay on track with the deadlines while also seperating t
 </figure>
 
 <h1>7. UI Design</h1>
-The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preffered password for their account . All this data is stored in our mongo database. 
+The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preferred password for their account . All this data is stored in our mongo database. 
 
 <figure>
 <img src="images/Register.jpg"> </img>
@@ -72,7 +72,10 @@ When the food is set to expire the user will be emailed a reminder blank days pr
 **EMAIL NOTIFACATION**
 
 <h1>8. Testing</h1>
-**idk**
+
+<figure>
+<img src="images/Homepage.jpg"> </img>
+</figure>
 
 <h1>9. Risk Analysis</h1>
 Our biggest problem was the lack of knowledge we had on everything. Neither one of us was familar with databases and only one of us was some what familar with using visual studio code and java script. We combatted this problem by spedning hours reading and wacthing videos on databases, java script, how servers worked, visual studio code, and html. After a while we got the hang of using a database and working with java script. We also had trouble combining our code but after we met up and played around with the code for a couple of hours we figured it out. 
