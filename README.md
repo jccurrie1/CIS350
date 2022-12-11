@@ -38,9 +38,11 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <h1>6. UI Design</h1>
 The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preffered password for their account . All this data is stored in our mongo database. 
 
-**INSERT PICTURE OF REGISTERATION PAGE**
+**REGISTRATION PAGE**
 
-Once the user is registered they can use their email and password to access wasted. After login the user will be able to see their homepage with all of their food they have inputed. **INSERT LOGIN PAGE**
+Once the user is registered they can use their email and password to access wasted. After login the user will be able to see their homepage with all of their food they have inputed.
+
+**INSERT LOGIN PAGE**
 
 In the home page users will be able to add food to their dashboard while also adding when they purchased said food. They will also be able to delete food from their dashboard.
 
@@ -48,7 +50,7 @@ In the home page users will be able to add food to their dashboard while also ad
 
 When the food is set to expire the user will be emailed a reminder blank days prior to the expiration date. This allows time for the user to eat or cook the food before it expires. 
 
-**EMAIL NOTIFACATION
+**EMAIL NOTIFACATION**
 
 <h1>7. Risk Analysis</h1>
 Our biggest problem was the lack of knowledge we had on everything. Neither one of us was familar with databases and only one of us was some what familar with using visual studio code and java script. We combatted this problem by spedning hours reading and wacthing videos on databases, java script, how servers worked, visual studio code, and html. After a while we got the hang of using a database and working with java script. We also had trouble combining our code but after we met up and played around with the code for a couple of hours we figured it out. 
