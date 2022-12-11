@@ -72,9 +72,10 @@ When the food is set to expire the user will be emailed a reminder blank days pr
 **EMAIL NOTIFACATION**
 
 <h1>8. Testing</h1>
+We succesfully tested our website using Github Actions.
 
 <figure>
-<img src="images/Homepage.jpg"> </img>
+<img src="images/Unit.jpg"> </img>
 </figure>
 
 <h1>9. Risk Analysis</h1>
