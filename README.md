@@ -36,29 +36,4 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 </figure>
 
 <h1>6. UI Design</h1>
-<figure>
-<img src="https://user-images.githubusercontent.com/113372710/193965283-2cc88a4d-46a9-4e9d-8991-800cdaf30b46.png"> </img>
-</figure>
 
-<figure>
- <img src="https://user-images.githubusercontent.com/113372710/193965944-cf6fb210-d0bc-47a7-891a-40648f1b4be8.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966100-4288d839-bea2-4bea-9a2b-106a53c35ff7.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966111-fd8587dd-225a-4751-8bc1-a937c4ef487e.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966116-b1ce4225-6aec-46ce-979c-052ea81d11d6.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193970411-1e19143a-6346-49f3-9253-026958546eae.png"> </img>
- </figure>
- 
- <h1>7. Risk Analysis and Retrospect</h1>
- Neither one of us had worked with databases before which proved to be a struggle. We had alot of issues connecting both of our codes together. We could not get the login to connect to the database right and navigate to the next page. We solved this problem by meeting up and going over the code to find the bug. We eventually found the bug and got the code to run smoothly. In retrospect we should have shared our code with each other as we went. We both worked on a part and combined them at the end but that caused more issues than we had planned for. Next time we know to always use github to upload what we are working on currently not uploadinga fter we are done.
