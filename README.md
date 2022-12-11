@@ -35,6 +35,9 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <img src="images/Class%20Diagram.png"> </img>
 </figure>
 
+<h1>6. Time Managment </h1>
+We used Jira to help us stay on track with the deadlines while also seperating tasks.
+
 <h1>6. UI Design</h1>
 The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preffered password for their account . All this data is stored in our mongo database. 
 
