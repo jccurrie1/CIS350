@@ -51,15 +51,21 @@ We used Jira to help us stay on track with the deadlines while also seperating t
 <h1>7. UI Design</h1>
 The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preffered password for their account . All this data is stored in our mongo database. 
 
-**REGISTRATION PAGE**
+<figure>
+<img src="images/Register.jpg"> </img>
+</figure>
 
 Once the user is registered they can use their email and password to access wasted. After login the user will be able to see their homepage with all of their food they have inputed.
 
-**INSERT LOGIN PAGE**
+<figure>
+<img src="images/Login.jpg"> </img>
+</figure>
 
 In the home page users will be able to add food to their dashboard while also adding when they purchased said food. They will also be able to delete food from their dashboard.
 
-**INSERT HOME PAGE**
+<figure>
+<img src="images/Homepage.jpg"> </img>
+</figure>
 
 When the food is set to expire the user will be emailed a reminder blank days prior to the expiration date. This allows time for the user to eat or cook the food before it expires. 
 
