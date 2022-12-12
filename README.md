@@ -69,7 +69,9 @@ In the home page users will be able to add food to their dashboard while also ad
 
 When the food is set to expire the user will be emailed a reminder blank days prior to the expiration date. This allows time for the user to eat or cook the food before it expires. 
 
-**EMAIL NOTIFACATION**
+<figure>
+<img src="images/Email.jpg"> </img>
+</figure>
 
 <h1>8. Testing</h1>
 We succesfully tested our website using Github Actions.
