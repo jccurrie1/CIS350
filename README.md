@@ -35,30 +35,56 @@ An estimated 931 million tons of food goes to waste every year. This is an incre
 <img src="images/Class%20Diagram.png"> </img>
 </figure>
 
-<h1>6. UI Design</h1>
+<h1>6. Time Managment </h1>
+We used Jira to help us stay on track with the deadlines while also seperating tasks.
+
+**Is it okay to put all the tasks as done**
+
 <figure>
-<img src="https://user-images.githubusercontent.com/113372710/193965283-2cc88a4d-46a9-4e9d-8991-800cdaf30b46.png"> </img>
+<img src="images/firstjira.jpg"> </img>
 </figure>
 
 <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193965944-cf6fb210-d0bc-47a7-891a-40648f1b4be8.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966100-4288d839-bea2-4bea-9a2b-106a53c35ff7.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966111-fd8587dd-225a-4751-8bc1-a937c4ef487e.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193966116-b1ce4225-6aec-46ce-979c-052ea81d11d6.png"> </img>
- </figure>
- 
- <figure>
- <img src="https://user-images.githubusercontent.com/113372710/193970411-1e19143a-6346-49f3-9253-026958546eae.png"> </img>
- </figure>
- 
- <h1>7. Risk Analysis and Retrospect</h1>
- Neither one of us had worked with databases before which proved to be a struggle. We had alot of issues connecting both of our codes together. We could not get the login to connect to the database right and navigate to the next page. We solved this problem by meeting up and going over the code to find the bug. We eventually found the bug and got the code to run smoothly. In retrospect we should have shared our code with each other as we went. We both worked on a part and combined them at the end but that caused more issues than we had planned for. Next time we know to always use github to upload what we are working on currently not uploadinga fter we are done.
+<img src="images/2ndjira.jpg"> </img>
+</figure>
+
+<h1>7. UI Design</h1>
+The user must first register their details with the website. This is a one-time registration. The only details Wasted needs is the user's name, email, and preferred password for their account . All this data is stored in our mongo database. 
+
+<figure>
+<img src="images/Register.jpg"> </img>
+</figure>
+
+Once the user is registered they can use their email and password to access wasted. After login the user will be able to see their homepage with all of their food they have inputed.
+
+<figure>
+<img src="images/Login.jpg"> </img>
+</figure>
+
+In the home page users will be able to add food to their dashboard while also adding when they purchased said food. They will also be able to delete food from their dashboard.
+
+<figure>
+<img src="images/Homepage.jpg"> </img>
+</figure>
+
+When the food is set to expire the user will be emailed a reminder blank days prior to the expiration date. This allows time for the user to eat or cook the food before it expires. 
+
+<figure>
+<img src="images/Email.jpg"> </img>
+</figure>
+
+<h1>8. Testing</h1>
+We succesfully tested our website using Github Actions.
+
+<figure>
+<img src="images/Unit.jpg"> </img>
+</figure>
+
+<h1>9. Risk Analysis</h1>
+Our biggest problem was the lack of knowledge we had on everything. Neither one of us was familar with databases and only one of us was some what familar with using visual studio code and java script. We combatted this problem by spedning hours reading and wacthing videos on databases, java script, how servers worked, visual studio code, and html. After a while we got the hang of using a database and working with java script. We also had trouble combining our code but after we met up and played around with the code for a couple of hours we figured it out. 
+
+We succesfully made a full stack website but we could have made the website more interesting. Its all very plain looking. This is becasue we spent more time on trying to get the program to run rather than styling.
+
+<h1>10. Demo Video </h1>
+
+
