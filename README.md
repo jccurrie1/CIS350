@@ -87,4 +87,4 @@ We succesfully made a full stack website but we could have made the website more
 
 <h1>10. Demo Video </h1>
 
-[![Watch the video]()](https://drive.google.com/file/d/1XnJiSeTrMY9OAorM0XXjzOdVfyKppSLc/view)
+[![Demo Video](images/photovid.jpg)](https://drive.google.com/file/d/1XnJiSeTrMY9OAorM0XXjzOdVfyKppSLc/view)
